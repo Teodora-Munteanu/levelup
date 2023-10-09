@@ -41,3 +41,16 @@ body{
 .about-me-img-list{
   max-height: 25vh;
 }
+
+.card-container-main-page {
+  max-width: 100vw !important;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-container-main-page .MuiPaper-root{
+  max-width: 75vw !important;
+}
