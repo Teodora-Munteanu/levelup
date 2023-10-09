@@ -42,6 +42,7 @@ body{
   max-height: 25vh;
 }
 
+
 .card-container-main-page {
   max-width: 100vw !important;
   display: flex;
@@ -52,5 +53,5 @@ body{
 }
 
 .card-container-main-page .MuiPaper-root{
-  max-width: 90vw !important;
+  max-width: 75vw !important;
 }
