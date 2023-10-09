@@ -18,6 +18,8 @@ const MainPage = () =>{
       title: "Transform Your Fitness Journey - In Gym or online",
       price: 'see more',
       image: ImageCard1,
+      height: "400px", 
+      width: "1000px",
       description: (
         <>
           <strong>Transform Your Fitness Journey:</strong> Join my 12-session gym program for a month of focused fitness and wellness.
@@ -50,7 +52,7 @@ const MainPage = () =>{
             </div>
             <div className='main-page-section'>
                 <h2>Plans</h2>
-                <div className='card-container'>
+                <div className='card-container-main-page'>
                   {Object.keys(cardData).map((card) => (
                     <ActionAreaCard
                       key={card}
