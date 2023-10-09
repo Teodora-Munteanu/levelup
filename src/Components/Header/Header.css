@@ -1,0 +1,35 @@
+.css-ur2jdm-MuiContainer-root{
+    background-color: rgb(240, 201, 208);
+}
+.logo-img{
+    max-height: 200px;
+    max-width: 250px;
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+.header-component{
+    width: 100%;
+    margin: 0;
+}
+
+.navbar-links,
+.navbar-links-burger{
+    text-decoration: none;
+    
+}
+
+.navbar-links{
+    color: #4c4848;
+    padding: 30px;
+
+}
+
+.navbar-links-burger{
+    color: rgb(240, 201, 208);
+}
+
+.css-1t6c9ts{
+    justify-content: end;
+    align-items: right;
+}

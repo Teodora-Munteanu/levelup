@@ -1,0 +1,64 @@
+.main-container, .MuiCard-root, select{
+  background-color: #faf5f5;
+}
+  .main-container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(145, 142, 142);
+    padding: 20px;
+  }
+.card-container{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    padding: 50px;
+    opacity: 1s0;
+    transition: opacity 0.5s ease-in-out;
+}
+.MuiCard-root{
+    padding: 20px;
+    margin: 10px;
+}
+
+.select-field {
+  appearance: none; /* Removes default appearance */
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+  color: #333;
+  width: 100%;
+  max-width: 175px;
+  cursor: pointer;
+  align-items: center;
+}
+
+
+/* Style for option elements */
+.select-field option {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style for hovered option elements */
+.select-field option:hover {
+  background-color: #ffc0cb !important; 
+  color: #333; 
+}
+
+/* Style for selected option element */
+.select-field option:checked {
+  background-color: #c4a1a1;
+  color: #fff;
+}
+
+
+  
