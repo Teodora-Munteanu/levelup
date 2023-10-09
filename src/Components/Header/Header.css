@@ -1,5 +1,6 @@
-.css-ur2jdm-MuiContainer-root{
-    background-color: rgb(240, 201, 208);
+.MuiContainer-root{
+    background-color: rgb(240, 201, 208) !important;
+    
 }
 .logo-img{
     max-height: 200px;
@@ -29,7 +30,7 @@
     color: rgb(240, 201, 208);
 }
 
-.css-1t6c9ts{
+.MuiBox-root{
     justify-content: end;
     align-items: right;
 }
