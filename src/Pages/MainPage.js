@@ -1,6 +1,6 @@
 import Banner from '../Components/Banner/Banner';
 import SuccessStory from "../Components/SuccessStory/SuccessStory";
-import BannerImage from '../assets/images/Banner.png'
+import BannerImage from '../assets/images/Banner1.png'
 import ActionAreaCard from '../Components/ProgramCard/ProgramCard';
 import { Link } from 'react-router-dom';
 import {useState} from 'react';

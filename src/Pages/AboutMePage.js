@@ -1,13 +1,11 @@
-import SuccessStory from '../Components/SuccessStory/SuccessStory'
-import Aboutme1 from '../assets/about-me-images/about-me1.jpg'
-import Aboutme2 from '../assets/about-me-images/about-me2.jpg'
-import Aboutme3 from '../assets/about-me-images/about-me3.jpg'
-import Aboutme4 from '../assets/about-me-images/about-me4.jpg'
+import Banner from '../Components/Banner/Banner';
+import BannerImage1 from '../assets/images/Banner.png'
 const AboutMePage = () =>{
     return(
         <>
+         <Banner BannerImage={BannerImage1}/>
         <div className='about-me-container'>
-            <SuccessStory className="about-me-img-list" itemData = {itemData}/>
+         
             <div className="about-me-description">
                 <p>I am Teo. And no, despite appearances, I didn't always enjoy sports. I haven't always been the best of friends with healthy eating either.
 
@@ -27,22 +25,3 @@ However, everything is easier with a guide, with a friend, with someone to encou
 }
 
 export default AboutMePage;
-
-const itemData = [
-    {
-      img: Aboutme1,
-      title: 'Teo1',
-    },
-    {
-      img: Aboutme2,
-      title: 'Teo2',
-    },
-    {
-      img: Aboutme3,
-      title: 'Teo3',
-    },
-    {
-      img: Aboutme4,
-      title: 'Teo4',
-    },
-  ];
