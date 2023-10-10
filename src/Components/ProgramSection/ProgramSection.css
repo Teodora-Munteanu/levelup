@@ -16,15 +16,15 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     font-size: calc(10px + 2vmin);
-    padding: 50px;
     opacity: 1s0;
     transition: opacity 0.5s ease-in-out;
 }
 .MuiCard-root{
     padding: 20px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .select-field {
