@@ -12,13 +12,17 @@ const Footer = () => {
                 className="btn btn-link btn-floating btn-lg text-dark m-1 mb-0"
                 href="https://www.facebook.com/teeu.teo"
                 role="button"
-                data-mdb-ripple-color="dark"><i className="fab fa-facebook-f"></i></a>
+                data-mdb-ripple-color="dark"
+                target="_blank"
+                rel="noreferrer" ><i className="fab fa-facebook-f"></i></a>
 
                 <a
                     className="btn btn-link btn-floating btn-lg text-dark m-1 mb-0"
                     href="https://www.instagram.com/teuuut/"
                     role="button"
                     data-mdb-ripple-color="dark"
+                    target="_blank"
+                    rel="noreferrer"
                     ><i className="fab fa-instagram"></i></a>
 
                 <a
@@ -26,6 +30,8 @@ const Footer = () => {
                     href="https://www.linkedin.com/in/munteanu-teodora-95a756226/"
                     role="button"
                     data-mdb-ripple-color="dark"
+                    target="_blank"
+                    rel="noreferrer"
                     ><i className="fab fa-linkedin"></i></a>
                 <Link className="btn btn-link btn-floating btn-lg text-dark m-1 mb-0" to="/contact"><i className="fa-regular fa-envelope" ></i></Link>
                 </section>
